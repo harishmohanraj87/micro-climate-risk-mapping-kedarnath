@@ -1,12 +1,13 @@
-# Micro-Climate Risk Mapping for Himalayan Agriculture
+# Mapping Windows of Vulnerability: Micro-Climate Risk Mapping for Himalayan Agriculture
 
 ## Research status
 
-**Planning and documentation stage.** This revision contains no datasets, source code, notebooks, trained models, generated maps, or validated experimental results. It describes a proposed research direction for the Kedarnath Valley area of Uttarakhand, India; it does not establish predictive performance or agricultural outcomes.
+**Planning and documentation stage.** This revision contains no datasets, source code, notebooks, trained models, generated maps, or validated experimental results. It describes a proposed research direction for the Kedarnath/Mandakini Valley area of Uttarakhand, India; it does not establish predictive performance or agricultural outcomes.
 
 ## Contents
 
 - [Overview](#overview)
+- [Evidence inventory](#evidence-inventory)
 - [Research questions and objectives](#research-questions-and-objectives)
 - [Study area](#study-area)
 - [Proposed data and provenance](#proposed-data-and-provenance)
@@ -19,13 +20,17 @@
 
 ## Overview
 
-Mountain agriculture can be exposed to highly local variation in temperature, precipitation, terrain, and vegetation conditions. This proposed project would develop a transparent workflow for combining meteorological, satellite-derived, terrain, and—if available—agricultural impact data to explore micro-climate-related agricultural risk in the Kedarnath Valley region.
+Mountain agriculture can be exposed to highly local variation in temperature, precipitation, terrain, and vegetation conditions. This proposed TBI Summer Research Internship project would develop a transparent workflow for combining meteorological, satellite-derived, terrain, and—if available—agricultural impact data to explore micro-climate-related agricultural risk in the Kedarnath/Mandakini Valley region.
 
 The intended output is a research workflow and, only after suitable data and validation are available, spatial risk indicators or maps. Any future map should be interpreted as an association-based decision-support product, not as evidence of causal effects or a guarantee of crop-loss prediction.
 
 ### Abstract
 
 This repository records the planned documentation and reproducibility framework for a micro-climate risk-mapping study in Himalayan agriculture. The proposed study would integrate documented meteorological observations, satellite-derived vegetation indicators, terrain information, and appropriately sourced agricultural outcome data. It has not yet implemented data acquisition, preprocessing, modelling, mapping, or validation. The project therefore makes no claims about model accuracy, risk estimates, or real-world agricultural impacts.
+
+## Evidence inventory
+
+The [repository audit](docs/repository_audit.md) is the authoritative inventory of what is currently present. It confirms that there are no data files, scripts, notebooks, dependency manifests, trained models, metrics, plots, or maps to inspect. Historical planning has mentioned six villages, Rajma, 216 or approximately 126 observations, IMD/Sentinel-2 data, a five-class risk scale, and several machine-learning models; these are unverified planning details, not established implementation facts.
 
 ## Research questions and objectives
 
@@ -44,11 +49,11 @@ This repository records the planned documentation and reproducibility framework 
 
 ## Study area
 
-The proposed focus is the Kedarnath Valley area within Rudraprayag district, Uttarakhand, India. This repository does not yet define a study polygon, village list, coordinate reference system, elevation range, agricultural calendar, or observation period. Those details must be recorded with the data release and analysis configuration before results can be reproduced.
+The proposed focus is the Kedarnath/Mandakini Valley area within Rudraprayag district, Uttarakhand, India. Historical planning named Guptkashi, Ukhimath, Phata, Rampur, Narayankoti, and Kalimath, but no dataset or spatial boundary in this repository verifies their inclusion. Likewise, Rajma has been identified in planning but is not supported by a current data dictionary or analysis artifact. A study polygon, coordinate reference system, elevation range, agricultural calendar, and observation period must be recorded with the data release and analysis configuration before results can be reproduced.
 
 ## Proposed data and provenance
 
-Prior project notes identify IMD, NASA Earthdata products (including MODIS and Landsat), Copernicus Sentinel-2, ISRO Bhuvan/MOSDAC, and agriculture or ground-observation records from relevant authorities as possible sources. They are not downloaded or verified inputs.
+Historical project planning identifies IMD, NASA Earthdata products (including MODIS and Landsat), Copernicus Sentinel-2, ISRO Bhuvan/MOSDAC, and agriculture or ground-observation records from relevant authorities as possible sources. They are not downloaded or verified inputs.
 
 No source files, licences, retrieval dates, product versions, spatial coverage, or access permissions are stored here. See [the data dictionary](docs/data_dictionary.md) for the information that must be supplied before a dataset is used.
 
